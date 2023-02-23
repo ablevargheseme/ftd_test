@@ -7,7 +7,7 @@ services:
     container_name: ftd
     ports:
         - 8000:8000
-    command: fastn serve
+    command: fastn serve --bind 0.0.0.0
 
         
      
