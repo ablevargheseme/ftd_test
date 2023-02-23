@@ -1,0 +1,7 @@
+-- import: fastn
+-- fastn.dependency: fifthtry.github.io/roboto
+-- fastn.dependency: ftd-lang.github.io/expander
+
+-- fastn.auto-import: roboto
+
+-- fastn.package: dashboard

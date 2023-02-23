@@ -1,0 +1,13 @@
+# ftd-express.yml
+version: "3.7"
+
+services:
+  ftd:
+    build: ./
+    container_name: ftd
+    ports:
+        - 8000:8000
+    command: fastn serve
+
+        
+     
